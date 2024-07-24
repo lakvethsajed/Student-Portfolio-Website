@@ -1,0 +1,108 @@
+/* Mobile Devices */
+@media (max-width: 576px) {
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .home-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .text-content {
+        text-align: center;
+        margin-right: 0;
+    }
+    .home .image-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+    .aboutsection {
+        padding: 2rem 1rem;
+    }
+    .aboutimg img {
+        max-width: 120px;
+    }
+    .about-content p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .skills {
+        margin-left: 0;
+        padding: 0 10px;
+    }
+    .para2, .para3 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .project-container {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .project, .img-project {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .mydetails {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+    .contact-p {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+}
+
+/* Laptops */
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar a {
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .home-content {
+        gap: 100px;
+    }
+    .text-content {
+        margin-right: 25px;
+    }
+    .home .image-content img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 50px;
+    }
+    .aboutsection {
+        padding: 3rem 3rem;
+    }
+    .aboutimg img {
+        max-width: 160px;
+    }
+    .about-content p {
+        font-size: 22px;
+    }
+    .skills {
+        margin-left: 0;
+        padding: 0 30px;
+    }
+    .para2, .para3 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .project-container {
+        flex-direction: column;
+        margin: 40px;
+    }
+    .project, .img-project {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .mydetails {
+        width: 70%;
+        margin-left: 15%;
+        padding: 20px;
+    }
+    .contact-p {
+        margin-left: 40px;
+        font-size: 22px;
+    }
+}
